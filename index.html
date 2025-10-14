@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мой сайт-визитка</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="color-scheme" content="light">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="На главную">ОНЛАЙН | КУРСЫ</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#partners">Партнёры</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Intro -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1><span class="accent">Елена Мирошниченко</span></h1>
+          <p class="lead">
+            Педагогический дизайнер / Концептолог
+          </p>          
+          <div class="hero-actions">
+            <a class="btn" href="#projects">Смотреть проекты</a>
+            <a class="btn btn-ghost" href="#contacts">Связаться</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <!-- Замените src на своё фото -->
+          <img src="my_foto.jpg" alt="Фото — Ваше имя" loading="lazy">
+        </div>
+      </div>
+      <div class="blur-ball ball-1" aria-hidden="true"></div>
+      <div class="blur-ball ball-2" aria-hidden="true"></div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container grid-2">
+        <div>
+          <h2 class="section-title">Обо мне</h2>
+          <p>
+            Cоздаю онлайн-курсы для дистанционного обучения. Помогаю бизнесу находить решения, а учащимся — получать 
+            ценность с удовольствием и интересом 
+            <p>40+ уроков и курсов с уровнем знаний обученных от 90% и уровнем закрепленного навыка от 80%</p>
+          </p>          
+        </div>
+        <div class="about-card">
+          <h3>Фокус направлений</h3>
+          <div class="tags">
+            <span class="tag">Медиа</span>
+            <span class="tag">Образование</span>
+            <span class="tag">Проекты</span>
+            <span class="tag">Школа</span>
+            <span class="tag">Бизнес</span>
+            <span class="tag">Детский сад</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Проекты</h2>
+
+        <!-- Горизонтальные видео (16:9) -->
+        <h3 class="subheading">Горизонтальные видео</h3>
+        <div class="video-grid">
+          <!-- Замените src на ссылку формата RuTube embed: https://rutube.ru/play/embed/<id>/ -->
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" src="https://rutube.ru/play/embed/cd62150873a7dfbd9513c3cc65de034d/" 
+              style="border: none;" allow="clipboard-write; autoplay" 
+              webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Пример welcome-видео для обучающего курса клиники</h4>
+            <p class="card-text">Этот ролик — часть интерактивного welcome-курса для новых сотрудников стоматологической клиники. 
+              Он открывает серию обучающих материалов и помогает новичкам познакомиться с миссией, ценностями и культурой компании. 
+              Задачи видео: создать первое эмоциональное впечатление от бренда, передать философию клиники — заботу о пациентах и 
+              сотрудниках, объяснить, как устроен путь стажировки и развитие внутри компании. Результат: после просмотра у сотрудника 
+              формируется понимание, что он — часть команды, разделяющей общие цели и ценности. Видео создано для корпоративной LMS. 
+              Подходит для welcome-курсов, адаптации персонала и HR-презентаций</p>
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" src="https://rutube.ru/play/embed/f1994dda03208e2da93afdff116846b3/" 
+              style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Пример упаковки рекламы услуги эксперта помогающей профессии</h4>
+            <p class="card-text">Натальная карта — это карта рождения, по которой можно глубже понять сильные стороны, ограничения, 
+              внутренние конфликты и пути их преодоления. Этот ролик помогает просто и спокойно объяснить, чем именно может быть 
+              полезна астрология и как проходит консультация у эксперта. В видео — реальные задачи, с которыми приходят клиенты: 
+              смена профессии, внутренние противоречия, поиск точки опоры в трудный период. Также даны контакты и способы связи 
+              для записи на разбор</p>
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" src="https://rutube.ru/play/embed/70735539317a62c327b2bcb3aea6fbf7/" 
+              style="border: none;" allow="clipboard-write; autoplay" 
+              webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Объясняющее видео для ПСО "ЛизаАлерт": как распознать человека с деменцией и правильно ему помочь</h4>
+            <p class="card-text">Этот ролик создан по запросу поисково-спасательного отряда ЛизаАлерт, чтобы помочь людям и новичкам-
+              волонтёрам распознавать признаки деменции и знать, как действовать, если такой человек встречается в городе или на 
+              маршруте. В ролике представлен алгоритм действий: как распознать признаки деменции, как общаться, чтобы не напугать, 
+              что делать, если вы столкнулись с таким человеком на улице. Транслируется в соцсетях, а также используется как часть 
+              вводного материала для новых волонтёров</p>
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" 
+              src="https://rutube.ru/play/embed/95b75f2bc410400a67b83c6198adb151/" 
+              style="border: none;" allow="clipboard-write; autoplay" 
+              webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Видео для компании «Прокс»: обзор IT-услуг в формате рисованной инструкции</h4>
+            <p class="card-text">Компания Прокс - ведущий поставщик IT-услуг в регионе. Цель этого проекта - познакомить 
+              существующих клиентов с полным спектром возможностей компании, включая комплексное аутсорсинговое предложение. 
+              Информация транслируется через соцсети и экраны в холлах офисов, где её могут увидеть как текущие, так и 
+              потенциальные клиенты. Первый ролик обзорный: он кратко представляет все ключевые услуги. В последующих видео 
+              каждая услуга раскрывается подробнее с фокусом на выгоды и практическую ценность</p>
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" src="https://rutube.ru/play/embed/09446c2fe4a5d9d3750344b8e573e677/" 
+              style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Видео-сказка для детей или взрослых</h4>
+            <p class="card-text">Пример объяснения сложного ворпоса для ребенка в виде занимательного рассказа с оригинальной визуализацией</p>
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-16x9">
+              <iframe width="100%" height="405" src="https://rutube.ru/play/embed/9a0d0e72a2b3d73bff2c8cdf8bf31ebc/" 
+              style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <h4 class="card-title">Презентация/реклама продукта</h4>
+            <p class="card-text">Пример живой и оригинальной визуализации преимуществ продукта или услуги</p>
+          </article>
+
+          
+        </div>
+
+        <!-- Вертикальные видео (9:16) -->
+        <h3 class="subheading">Вертикальные видео</h3>
+        <div class="video-grid">
+          <article class="card">
+            <div class="video-frame ratio-9x16">
+              <iframe 
+                src="https://rutube.ru/play/embed/e0f098822c1cf8be5a56e18c44158fe4/"
+                title="Проект 3 (вертикаль)" 
+                loading="lazy" 
+                frameborder="0" 
+                allow="clipboard-write; autoplay; fullscreen"
+                allowfullscreen></iframe>
+            </div>
+            <h4 class="card-title">Лайфхак о капусте. Пример упаковки инструкции в короткий ролик</h4>
+            
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-9x16">
+              <iframe 
+                src="https://rutube.ru/play/embed/4c57789b1644c0432a565cb53b93ff87/"
+                title="Проект 4 (вертикаль)" 
+                loading="lazy" 
+                frameborder="0" 
+                allow="clipboard-write; autoplay; fullscreen"
+                allowfullscreen></iframe>
+            </div>
+            <h4 class="card-title">О важности давать визуальную картинку ученикам и сотрудникам. Пример упаковки 
+              любой темы в короткий, информативный и залипательный ролик</h4>
+            
+          </article>
+
+          <article class="card">
+            <div class="video-frame ratio-9x16">
+              <iframe 
+                src="https://rutube.ru/play/embed/699acd658d008368931326088dbf817b/"
+                title="Проект 4 (вертикаль)" 
+                loading="lazy" 
+                frameborder="0" 
+                allow="clipboard-write; autoplay; fullscreen"
+                allowfullscreen></iframe>
+            </div>
+            <h4 class="card-title">Мотивашка про бег по утрам (пример упаковки любой темы в формате короткой скрайбинг-зарисовки)</h4>            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section" id="partners">
+      <div class="container">
+        <h2 class="section-title">С кем успела поработать</h2>
+        <div class="partners-grid">
+          <!-- Замените src на логотипы партнёров -->
+           <img class="partner" src="logo_mbn.jpg" alt="МБН" loading="lazy">
+          <img class="partner" src="logo_mia.png" alt="МИА" loading="lazy">
+          <img class="partner" src="logo_mts.jfif" alt="МТС" loading="lazy">
+          <img class="partner" src="logo_anix.jpg" alt="Аникс" loading="lazy">
+          <img class="partner" src="logo_dostavka.jpg" alt="Доставка" loading="lazy">
+          <img class="partner" src="logo_LA.jpg" alt="ЛА" loading="lazy">
+          <img class="partner" src="logo_smisloteka.jpg" alt="Смыслотека" loading="lazy">
+          <img class="partner" src="logo_prox.JPG" alt="Прокс" loading="lazy">
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <h2 class="section-title" id="contacts-title">Контакты</h2>
+        <div class="contact-cards">
+          <a class="contact-card" href="https://t.me/elenamiroshnichenk" target="_blank" rel="noopener">
+            <span class="icon" aria-hidden="true">
+              <!-- Telegram SVG -->
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+                <path d="M9.9 16.2 9.8 20c.4 0 .6-.2.8-.4l1.9-1.8 3.9 2.9c.7.4 1.2.2 1.4-.6l2.6-12.2c.2-.9-.3-1.3-1-1.1L3.6 10c-.8.2-.8.7-.1.9l4.5 1.4 10.5-6.6-8.6 7.8z"/>
+              </svg>
+            </span>
+            <span>написать в ТГ</span>
+          </a>
+
+          <a class="contact-card" href="https://vk.com/scribvideo" target="_blank" rel="noopener">
+            <span class="icon" aria-hidden="true">
+              <!-- VK SVG -->
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+                <path d="M20.9 7.6c.1-.3 0-.6-.5-.6h-2c-.4 0-.6.2-.7.5 0 0-.8 2-1.8 3.3-.3.3-.5.4-.7.4-.1 0-.3-.1-.3-.4V7.6c0-.3-.1-.5-.4-.5H11c-.2 0-.4.1-.4.4 0 .3.4.3.4.3.3 0 .4.1.4.5v3.3c0 .4 0 .9-.2 1.2-.2.3-.5 0-.7-.2-1.2-1.2-2.1-3-2.1-3 0-.3-.2-.5-.6-.5H4.7c-.4 0-.5.2-.5.5 0 .5.5 3 2.5 5.1C8.6 16 11 16 11 16h.6c.4 0 .4-.3.4-.5v-1.1c0-.3.1-.4.3-.4.2 0 .6.2 1.4 1 .9.9 1 .9 1.5.9h1.8c.5 0 .7-.3.6-.6-.1-.3-.4-.5-.8-.9-.2-.3-.6-.7-.7-.8-.2-.3-.1-.4 0-.6.1-.1.4-.5.6-.8.4-.6.7-1.2.8-1.5z"/>
+              </svg>
+            </span>
+            <span>написать в ВК</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Елена Мирошниченко. Все права защищены</p>
+      <a class="to-top" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // текущий год в подвал
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
